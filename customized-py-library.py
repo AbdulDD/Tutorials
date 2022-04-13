@@ -131,6 +131,7 @@ def About_Array(Array):
     print('Shape:', Array.shape)
     print('Memory location:', Array.data)
     print('Strides:', Array.strides)
+    print('-------------------------------------')
 
 # %% [markdown]
 # # Visualization commands
