@@ -130,8 +130,6 @@ def About_Array(Array):
     print('Size:', Array.size)
     print('Item size:', Array.itemsize)
     print('Number of bytes:', Array.nbytes)
-    print('Size:', Array.size)
-    print('Itemsize:', Array.itemsize)
     print('Shape:', Array.shape)
     print('Memory location:', Array.data)
     print('Strides:', Array.strides)
