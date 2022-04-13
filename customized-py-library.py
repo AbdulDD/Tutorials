@@ -123,19 +123,20 @@ def load_image_files(container_path, Dimension_value):
                  images=images,
                  DESCR=descr)
 
-#def About_Array(Array):
-    
-#    print('Data type:', Array.dtype)
-#    print('Dimension of array:', Array.ndim)
-#    print('Itemsize:', Array.itemsize)
-#    print('Shape:', Array.shape)
-#    print('Memory location:', Array.data)
-#    print('Strides:', Array.strides)
-#    print('-------------------------------------')
-    
 def About_Array(Array):
-    A_Array = pd.DataFrame({'Dimension of array': Array.ndim,'Data type': Array.dtype,'Shape': Array.shape,'Size': Array.size,'Item size': Array.itemsize,'Number of bytes': Array.nbytes,'Memory location': Array.data,'Strides': Array.strides})
-    return A_Array
+    
+    print('Data type:', Array.dtype)
+    print('Dimension of array:', Array.ndim)
+    print('Size:', Array.size)
+    print('Item size:', Array.itemsize)
+    print('Number of bytes:', Array.nbytes)
+    print('Size:', Array.size)
+    print('Itemsize:', Array.itemsize)
+    print('Shape:', Array.shape)
+    print('Memory location:', Array.data)
+    print('Strides:', Array.strides)
+    print('-------------------------------------')
+
 
 # %% [markdown]
 # # Visualization commands
