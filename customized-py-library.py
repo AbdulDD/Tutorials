@@ -126,6 +126,7 @@ def load_image_files(container_path, Dimension_value):
 def About_Array(Array):
     
     print('Data type:', Array.dtype)
+    print('Dimension of array:', Array.ndim)
     print('Itemsize:', Array.itemsize)
     print('Shape:', Array.shape)
     print('Memory location:', Array.data)
